@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Manual de Android</string>
+    <string name="nombre_autor">Fernando Garcia Tapia</string>
+    <string name="bienvenida">Grupo 7S11</string>
+
+    <string name="tema_2_1">
+    INSTALACIÓN DE AMBIENTE DE DESARROLLO\n\n
+    Para comenzar a desarrollar aplicaciones Android es necesario preparar el entorno adecuado. Esto implica instalar herramientas específicas que nos permitirán escribir código, compilarlo y probarlo tanto en dispositivos físicos como virtuales.\n\n
+    1. JDK (Java Development Kit)\n
+    Android se basa en el lenguaje Java. Por tanto, debemos instalar el JDK, que nos proporciona las herramientas necesarias para compilar y ejecutar aplicaciones en este lenguaje.\n\n
+    2. Android Studio\n
+    Es el entorno de desarrollo oficial (IDE) para Android. Está basado en IntelliJ IDEA y provee múltiples herramientas como un editor de código avanzado, depurador, emulador, asistentes de interfaz gráfica y más.\n\n
+    Para instalarlo:\n
+    - Dirígete a https://developer.android.com/studio\n
+    - Descarga la versión para tu sistema operativo (Windows, Mac o Linux)\n
+    - Sigue las instrucciones del asistente de instalación\n\n
+    3. SDK Manager\n
+    Dentro de Android Studio, el SDK Manager permite descargar versiones del sistema Android y herramientas complementarias como las APIs de Google, las imágenes de emulador, y más.\n\n
+    4. Emulador (AVD)\n
+    El Android Virtual Device (AVD) permite simular distintos modelos de teléfonos y tablets. Es ideal para realizar pruebas sin usar un dispositivo real.\n\n
+    Tener todas estas herramientas correctamente instaladas y configuradas es el primer paso para empezar a desarrollar aplicaciones funcionales, atractivas y eficientes para el ecosistema Android.
+</string>
+
+    <string name="tema_2_2">
+    ENTORNO DE TRABAJO (IDE)\n\n
+    El entorno de trabajo es el conjunto de herramientas visuales que usamos para escribir, organizar, compilar y probar nuestro código. Para desarrollo Android, el entorno oficial es Android Studio.\n\n
+    Android Studio proporciona todo lo necesario para construir aplicaciones:\n\n
+    1. Editor de código con autocompletado, refactorización y resaltado de errores en tiempo real.\n\n
+    2. Vista gráfica del diseño (Layout Editor) que permite crear interfaces arrastrando y soltando componentes.\n\n
+    3. Administrador de proyectos, donde se organizan carpetas como Java, res, drawable, layout y manifest.\n\n
+    4. Integración con Git y otras herramientas de control de versiones para trabajo colaborativo.\n\n
+    5. Emulador y herramientas de prueba integradas, permitiendo ejecutar la app sin requerir un dispositivo físico.\n\n
+    Android Studio también proporciona plantillas para iniciar proyectos rápidamente, asistentes para configurar Activities, compatibilidad con Jetpack y soporte para múltiples resoluciones y versiones de Android.\n\n
+    Dominar el entorno de trabajo te permitirá desarrollar con fluidez, detectar errores más rápido y aplicar buenas prácticas desde el inicio.
+</string>
+
+    <string name="tema_2_3">
+    CREACIÓN DE EMULADOR VIRTUAL (AVD)\n\n
+    Un emulador de Android permite ejecutar una copia virtual de un dispositivo directamente en la computadora. Es una herramienta esencial para probar nuestras aplicaciones sin necesidad de usar un celular real.\n\n
+    Android Studio incluye el AVD Manager (Android Virtual Device Manager), que facilita la creación de estos emuladores de manera gráfica.\n\n
+    Pasos para crear un emulador:\n\n
+    1. Abre Android Studio y dirígete al menú “Tools” → “Device Manager” o “AVD Manager”.\n\n
+    2. Haz clic en “Create Device” y selecciona un modelo de teléfono o tablet (por ejemplo, Pixel 6).\n\n
+    3. Elige la versión de Android que quieres instalar en ese emulador (por ejemplo, API 33 o API 30).\n
+    - Si no la tienes descargada, puedes hacerlo desde ahí mismo.\n\n
+    4. Configura nombre, orientación, resolución y otros parámetros si lo deseas.\n\n
+    5. Finaliza el asistente y haz clic en “Play” para iniciar tu emulador.\n\n
+    El emulador se abrirá como una ventana separada, y funcionará como un dispositivo Android completo: puedes instalar APKs, ejecutar apps desde Android Studio o usar funcionalidades como cámara, GPS simulado, red móvil, entre otras.\n\n
+    🧪 Es una herramienta indispensable para pruebas, especialmente si necesitas validar cómo se comporta tu app en distintos tamaños de pantalla y versiones de Android.
+</string>
+
+    <string name="tema_2_4">
+    CREAR PRIMER PROYECTO\n\n
+    Una vez instalado Android Studio y configurado el entorno, es momento de crear tu primer proyecto.\n\n
+    Pasos para crear un proyecto:\n\n
+    1. Abre Android Studio y haz clic en “New Project”.\n\n
+    2. Selecciona una plantilla inicial.\n
+    - Recomendado: “Empty Activity” para empezar desde cero.\n\n
+    3. Asigna un nombre al proyecto (por ejemplo, MiPrimeraApp) y un nombre al paquete (como com.ejemplo.miapp).\n\n
+    4. Selecciona el lenguaje (Java o Kotlin). En este curso usamos Java.\n\n
+    5. Define la versión mínima de Android (Minimum SDK). Por ejemplo: API 21 (Lollipop) o superior.\n\n
+    6. Finaliza el asistente y espera a que Android Studio genere la estructura del proyecto.\n\n
+    Al terminar, se abrirá el archivo MainActivity.java y su respectivo diseño XML. Podrás comenzar a escribir código, agregar vistas, botones, cambiar textos y construir tu primera app paso a paso.\n\n
+    Esta estructura base ya incluye:\n
+    - una clase MainActivity (que se ejecuta al iniciar la app)\n
+    - un layout principal (activity_main.xml)\n
+    - un archivo AndroidManifest para declarar el comportamiento de la app\n\n
+    A partir de aquí puedes comenzar a probar, personalizar y dar vida a tus ideas.
+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

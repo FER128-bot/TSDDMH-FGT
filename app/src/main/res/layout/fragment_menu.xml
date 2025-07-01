@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_claro"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_tema1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.1 Instalación de Ambiente de Desarrollo"
+            style="@style/BotonTema"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_tema2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.2 Entorno de Trabajo (IDE)"
+            style="@style/BotonTema"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_tema3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.3 Creación de Emulador Virtual (AVD)"
+            style="@style/BotonTema"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_tema4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.4 Crear Primer Proyecto"
+            style="@style/BotonTema"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_examen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Examen Final"
+            style="@style/BotonTema"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 🌙 Tema general de la app -->
+    <style name="Theme.TSDDMH_FGT" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/azul_oscuro</item>
+        <item name="colorPrimaryVariant">@color/azul_medio</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/azul_claro</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+        <item name="android:statusBarColor">@color/azul_oscuro</item>
+        <item name="android:windowBackground">@color/fondo_claro</item>
+    </style>
+
+    <!-- 📌 Botones para menú principal y examen -->
+    <style name="BotonTema">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/azul_medio</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- 🖋 Texto de párrafos temáticos -->
+    <style name="TextoTema">
+        <item name="android:textColor">@color/gris_oscuro</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">6dp</item>
+    </style>
+
+    <!-- ✅ Estilo para CheckBox de examen -->
+    <style name="CheckBoxTema">
+        <item name="android:textColor">@color/gris_oscuro</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

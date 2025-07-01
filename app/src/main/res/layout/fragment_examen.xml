@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_claro"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Pregunta 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. ¿Cuál de estas herramientas es indispensable para desarrollar apps Android?"
+            android:textColor="@color/azul_oscuro"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <CheckBox
+            android:id="@+id/p1_op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google Chrome"
+            style="@style/CheckBoxTema" />
+
+        <CheckBox
+            android:id="@+id/p1_op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android Studio"
+            style="@style/CheckBoxTema" />
+
+        <CheckBox
+            android:id="@+id/p1_op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Microsoft Word"
+            style="@style/CheckBoxTema" />
+
+        <!-- Pregunta 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. ¿Dónde se crea el emulador virtual (AVD)?"
+            android:textColor="@color/azul_oscuro"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/p2_op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manifest.xml"
+            style="@style/CheckBoxTema" />
+
+        <CheckBox
+            android:id="@+id/p2_op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Palette View"
+            style="@style/CheckBoxTema" />
+
+        <CheckBox
+            android:id="@+id/p2_op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AVD Manager"
+            style="@style/CheckBoxTema" />
+
+        <!-- Pregunta 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. ¿Qué plantilla es recomendable al crear un nuevo proyecto Android desde cero?"
+            android:textColor="@color/azul_oscuro"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/p3_op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empty Activity"
+            style="@style/CheckBoxTema" />
+
+        <CheckBox
+            android:id="@+id/p3_op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maps Activity"
+            style="@style/CheckBoxTema" />
+
+        <CheckBox
+            android:id="@+id/p3_op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login Activity"
+            style="@style/CheckBoxTema" />
+
+        <!-- Pregunta 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. ¿Cuál de estas opciones describe mejor el Layout Editor?"
+            android:textColor="@color/azul_oscuro"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/p4_op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Un visor de código XML"
+            style="@style/CheckBoxTema" />
+
+        <CheckBox
+            android:id="@+id/p4_op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Una herramienta visual para diseñar interfaces"
+            style="@style/CheckBoxTema" />
+
+        <CheckBox
+            android:id="@+id/p4_op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Una terminal para ingresar comandos Bash"
+            style="@style/CheckBoxTema" />
+
+        <!-- Botón Enviar -->
+        <Button
+            android:id="@+id/boton_enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Enviar"
+            style="@style/BotonTema"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>
